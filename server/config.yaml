@@ -1,0 +1,26 @@
+server :
+    port : 9527
+    host : 127.0.0.1
+
+autoUpdate :
+    lastVersion : 1.0.3
+    version :
+      - number: 1.0.3
+        notes: "This is a 1.0.3 release note."
+        files:
+          - name: update.zip
+            url: http://127.0.0.1:9527/static/test1.zip
+      - number: 1.0.2
+        notes: "This is a 1.0.2 release note."
+        files:
+          - name: update.zip
+            url: http://127.0.0.1:9527/static/test2.zip
+      - number: 1.0.1
+        notes: "This is a 1.0.1 release note."
+        files:
+          - name: update.zip
+            url: http://127.0.0.1:9527/static/test3.zip
+
+
+
+
